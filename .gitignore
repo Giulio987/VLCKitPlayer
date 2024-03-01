@@ -21,3 +21,6 @@ Podfile.lock
 *.xctestrun
 *.xcresult
 
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore

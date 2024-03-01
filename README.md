@@ -107,7 +107,9 @@ To use the VLCKitPlayer, you need to create a SwiftUI view and add the VLCKitPla
 
 Here is a preview of the VLCKitPlayer in action:
 
-<img alt="Player in action" src="https://github.com/Giulio987/VLCKitPlayer/blob/main/Static/test.gif" width="220" height="330"/>
+<div align="center">
+<img alt="Player in action" src="https://github.com/Giulio987/VLCKitPlayer/blob/main/Static/test.gif" width="220" height="360"/>
+</div>
 
 ## Contributing
 
