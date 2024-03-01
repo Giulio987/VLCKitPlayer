@@ -52,7 +52,7 @@ Open the .xcworkspace file: Close your Xcode project and open the .xcworkspace f
 
 ### Add VLCKitPlayer to your project
 
-First of all you need to download and extract the .framework file from the [releases](https://github.com/Giulio987/VLCKitPlayer/releases) section of this repository. 
+First of all you need to download and extract the .framework file from the [releases](https://github.com/Giulio987/VLCKitPlayer/releases) section of this repository.
 Make sure to extract it before proceeding.
 
 Add the VLCKitPlayer.framework to your project:
@@ -63,7 +63,7 @@ Add the VLCKitPlayer.framework to your project:
 4. Select the VLCKitPlayer.framework file and click "Add".
 5. Verify that the framework is added to the "Link Binary With Lybraries" section in the "Build Phases" tab of your target.
 6. On "General" tab of your target, verify if the framework is listed in the "Frameworks, Libraries, and Embedded Content" section.
-7. If the value for this framework is "Do Not Embed", change it to "Embed & Sign" or "Embed Without Signing" (if you are  only testing)
+7. If the value for this framework is "Do Not Embed", change it to "Embed & Sign" or "Embed Without Signing" (if you are only testing)
 
 ### Add VLCKitPlayer to your SwiftUI view
 
@@ -86,7 +86,7 @@ struct VLCKitTest: View {
         .fullScreenCover(isPresented: $openFullScreenModal, content: {
             VLCKitPlayer(selectedUrl: .constant("YourMp4OrHLSStreamingLink"), present: $openFullScreenModal)
         })
-        
+
     }
 }
 
@@ -107,7 +107,7 @@ To use the VLCKitPlayer, you need to create a SwiftUI view and add the VLCKitPla
 
 Here is a preview of the VLCKitPlayer in action:
 
-![Player](https://github.com/Giulio987/VLCKitPlayer/blob/main/Static/test.gif)
+<img alt="Player in action" src="https://github.com/Giulio987/VLCKitPlayer/blob/main/Static/test.gif" width="220" height="330"/>
 
 ## Contributing
 
