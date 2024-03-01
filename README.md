@@ -52,7 +52,8 @@ Open the .xcworkspace file: Close your Xcode project and open the .xcworkspace f
 
 ### Add VLCKitPlayer to your project
 
-First of all you need to download the .framework file from the [releases](https://github.com/Giulio987/VLCKitPlayer/releases) section of this repository.
+First of all you need to download and extract the .framework file from the [releases](https://github.com/Giulio987/VLCKitPlayer/releases) section of this repository. 
+Make sure to extract it before proceeding.
 
 Add the VLCKitPlayer.framework to your project:
 
@@ -106,7 +107,7 @@ To use the VLCKitPlayer, you need to create a SwiftUI view and add the VLCKitPla
 
 Here is a preview of the VLCKitPlayer in action:
 
-![Player](https://github.com/Giulio987/VLCKitPlayer/Static/test.gif)
+![Player](https://github.com/Giulio987/VLCKitPlayer/blob/main/Static/test.gif)
 
 ## Contributing
 
